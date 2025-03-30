@@ -8,11 +8,11 @@ function App() {
         <Tree 
           name="Live Oak"
           description="Doesn't lose it's leaves"
-          image="images/live-oak.jpeg"/>
+          image="images/liveoak.jpg"/>
         <Tree 
           name="Dogwood"
           description="Flowers in spring"
-          image="images/dogwood.jpeg" />
+          image="images/dogwood.jpg" />
       </section>
     </>
   );
