@@ -5,14 +5,14 @@
     --text-color: white;
 }
 
-header {
+footer {
     font-family: Arial, Helvetica, sans-serif;
     background: var(--secondary-color);
-    text-align: left;
+    text-align: center;
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
     margin-left: 200px;
     margin-right: 200px;
-    color: var(--tertiary-color)
+    color: var(--text-color)
 }

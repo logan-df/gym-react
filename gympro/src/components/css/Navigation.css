@@ -1,13 +1,23 @@
+:root {
+    --primary-color: #D0D2D4;
+    --secondary-color: #37393B;
+    --tertiary-color: #E93E3C;
+    --text-color: white;
+}
+
 #main-nav ul {
     display:flex;
+    border: 3px solid var(--primary-color)
 }
 
 #main-nav li {
     list-style-type:none;
-    padding:5px;
+    text-align: center;
+    padding:20px;
     flex:1;
 }
 
 #main-nav li a {
     text-decoration: none;
+    color: var(--text-color)
 }
