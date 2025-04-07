@@ -7,7 +7,7 @@ function Diets() {
                 <h1>Diets</h1>
                 <div class="bordered-container">
                         <section class="image">
-                            <img src="images/salad.jpg"></img>
+                            <img src="https://gym-server-6dlr.onrender.com/images/salad.jpg"></img>
                         </section>
                         <section class="text">
                             <p>
@@ -33,12 +33,12 @@ function Diets() {
                             </p>
                         </section>
                         <section class="image">
-                            <img src="images/chicken.jpg"></img>
+                            <img src="https://gym-server-6dlr.onrender.com/images/chicken.jpg"></img>
                         </section>
                     </div>
                     <div class="bordered-container">
                         <section class="image">
-                            <img src="images/burger.jpg"></img>
+                            <img src="https://gym-server-6dlr.onrender.com/images/burger.jpg"></img>
                         </section>
                         <section class="text">
                             <p>
