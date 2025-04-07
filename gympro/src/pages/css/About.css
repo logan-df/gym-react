@@ -47,7 +47,21 @@
     margin-right: 20px;
 }
 
-@media (min-width: 900px) {
+#contact-box {
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#contact-box h1 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+@media (min-width: 768px) {
     .flex-container-about {
         display: flex;
     }

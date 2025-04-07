@@ -1,4 +1,5 @@
 import './css/About.css'
+import Contact from '../components/Contact';
 
 function About() {
     return (
@@ -35,6 +36,10 @@ function About() {
                         </section>
                     </section>
                 </div>
+                <section id="contact-box">
+                    <h1>Contact Us</h1>
+                    <Contact />
+                </section>
             </section>
         </>
     );

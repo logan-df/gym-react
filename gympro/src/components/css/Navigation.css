@@ -6,7 +6,6 @@
 }
 
 #main-nav ul {
-    display:flex;
     border: 3px solid var(--primary-color)
 }
 
@@ -14,10 +13,19 @@
     list-style-type:none;
     text-align: center;
     padding:20px;
-    flex:1;
 }
 
 #main-nav li a {
     text-decoration: none;
     color: var(--text-color)
+}
+
+@media (min-width: 900px) {
+    #main-nav ul {
+        display: flex;
+    }
+
+    #main-nav li {
+        flex: 1;
+    }
 }
