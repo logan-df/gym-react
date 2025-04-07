@@ -12,7 +12,7 @@ function About() {
                             training and overall wellness accessible to everyone, GymPro is dedicated to providing top-quality fitness gear, expert 
                             training programs, and a supportive community to help you achieve your goals.
                         </p>
-                        <img src="../images/GymPro-logoresize1.jpg"></img>
+                        <img src="images/GymPro-logoresize1.jpg"></img>
                         <p>
                             Whether you're a beginner looking to start your journey or an experienced athlete pushing your limits, GymPro is here to 
                             support you every step of the way. Our mission is simple: to empower individuals through fitness by offering innovative 
@@ -23,7 +23,7 @@ function About() {
                     </section>
                     <section class="content-holder-a" id="content2">
                         <section class="sub-content">
-                            <img src="../images/kettlebell.png"></img>
+                            <img src="images/kettlebell.png"></img>
                         </section>
                         <section class="sub-content">
                             <p>
@@ -31,7 +31,7 @@ function About() {
                             </p>
                         </section>
                         <section class="sub-content">
-                            <img src="../images/stuff.jpg"></img>
+                            <img src="images/stuff.jpg"></img>
                         </section>
                     </section>
                 </div>
