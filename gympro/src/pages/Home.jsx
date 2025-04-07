@@ -5,7 +5,7 @@ function App() {
     <>
       <section class="content">
         <h1>Home</h1>
-        <img src="images/weightroom.jpg"></img>
+        <img src="https://gym-server-6dlr.onrender.com/images/weightroom.jpg"></img>
         <p>
           Welcome to GymPro! Our Goal with this website is to provide a resource that anyone from beginner level lifters to adept lifters 
           can reference to improve their Gains. You can find the key components to exercising here. These components include different workout 
