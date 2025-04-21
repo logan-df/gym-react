@@ -44,9 +44,10 @@ const WorkoutHolder = () => {
             <div id="chest" className="flex-container">
                 {workouts.filter(workout => workout.muscle === 'chest').map(workout => (
                     <Workouts
-                    key={workout.id}
-                    _id={workout.id}
+                    key={workout.name}
+                    _id={workout._id}
                     name={workout.name}
+                    muscle={workout.muscle}
                     image={workout.image}
                     />
                 ))}
@@ -55,9 +56,10 @@ const WorkoutHolder = () => {
             <div id="back" className="flex-container">
                 {workouts.filter(workout => workout.muscle === 'back').map(workout => (
                     <Workouts
-                    key={workout.id}
-                    _id={workout.id}
+                    key={workout.name}
+                    _id={workout._id}
                     name={workout.name}
+                    muscle={workout.muscle}
                     image={workout.image}
                     />
                 ))}
@@ -66,9 +68,10 @@ const WorkoutHolder = () => {
             <div id="legs" className="flex-container">
                 {workouts.filter(workout => workout.muscle === 'legs').map(workout => (
                     <Workouts
-                    key={workout.id}
-                    _id={workout.id}
+                    key={workout.name}
+                    _id={workout._id}
                     name={workout.name}
+                    muscle={workout.muscle}
                     image={workout.image}
                     />
                 ))}

@@ -13,7 +13,7 @@ const DeleteWorkout = (props) => {
     if(response.status === 200){
       setResult("Workout deleted successfully");
       props.closeDeleteDialog();
-      props.hideWorkout();
+      props.hideWorkouts();
     } else {
       setResult("Sorry, we couldn't delete your workout right now");
     }
