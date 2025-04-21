@@ -47,7 +47,7 @@ const AddWorkout = (props) => {
 
                         <p>
                             <label htmlFor="muscle">Muscle Group:</label>
-                            <input type="text" id="muscle" name="muscle" min="2" required></input>
+                            <input type="text" id="muscle" name="muscle" min="2" placeHolder="Must be 'chest', 'back', or 'legs'" required></input>
                         </p>
 
                         <section className="columns">
