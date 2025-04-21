@@ -25,7 +25,7 @@ const EditWorkout = (props) => {
       setResult("Workout editted successfully");
       event.target.reset();
       props.closeEditDialog();
-      props.EditWorkout(await response.json());
+      props.editWorkouts(await response.json());
     }
     else {
       setResult("Error editting your workout");
